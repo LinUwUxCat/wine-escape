@@ -8,6 +8,7 @@ Idk i just felt like it
 ### How?
 > [!NOTE]  
 > This assumes that the `Z:` drive in wine points to `/`. If it doesn't, this will not work.
+
 Wine's drives are mapped to standard linux folders, and in particular `Z:/` is mapped by default to `/` to allow the user to access its entire system (for e.g. saving files from programs run via wine). \
 So this means you can write to any file you have the permission to - anything in `Z:/home/USERNAME` if wine is ran normally, or anywhere if wine is ran using `sudo` (which you should never do)
 
